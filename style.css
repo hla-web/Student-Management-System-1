@@ -1,0 +1,78 @@
+/* PAGE BACKGROUND (kawaii pastel gradient) */
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, lavender, plum, pink);
+    font-family: Arial, sans-serif;
+}
+
+/* SOFT DOT PATTERN (cute effect) */
+body::before{
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(white 2px, transparent 2px);
+    background-size: 40px 40px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/* HEADER TITLE */
+#main_title{
+    text-align: center;
+    background: linear-gradient(to right, black, lightpink);
+    color: white;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* MAIN CONTENT BOX */
+.container{
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/* ALIGN TITLE + BUTTON */
+.box1 h2{
+    float: left;
+}
+
+.box1 button{
+    float: right;
+    font-weight: bold;
+}
+
+/* TABLE STYLE */
+.table{
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* BUTTON STYLE */
+.btn-primary{
+    background-color: pink;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: deeppink;
+}
+
+/* SUCCESS MESSAGE */
+.success{
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+}
+
+/* ERROR MESSAGE */
+.error{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
